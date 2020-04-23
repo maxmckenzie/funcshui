@@ -4,8 +4,12 @@
   "description": "Collection of serverless functions for use with services such as Vercel (formerly Zeit)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncp ./index.html ./public/index.html"
   },
   "author": "Max McKenzie hello@maxmckenzie.uk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
 }
