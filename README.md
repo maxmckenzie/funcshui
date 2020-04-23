@@ -1,5 +1,7 @@
 Funcshui
 
+https://funcshui.now.sh/
+
 Set of deploy ready serverless functions, Use them as is or pull them into your serverless function as a node dependency.
 
 https://vercel.com/docs/runtimes#official-runtimes/node-js
