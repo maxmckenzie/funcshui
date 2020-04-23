@@ -9,7 +9,7 @@ Funcshui is a collection of deploy ready serverless functions for use with platf
 
 This library has been built to work with Zeit. You can deploy a demo version of it with the button below.
 
-[![Deploy to Vercel](/button)](https://vercel.com/import/project?template=https://github.com/zeit/now/tree/master/examples/gatsby)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/now/tree/master/examples/gatsby)
 
 
 
