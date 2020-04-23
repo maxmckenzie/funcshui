@@ -11,19 +11,36 @@ This library has been built to work with Zeit. You can deploy a demo version of 
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/maxmckenzie/funcshui/tree/master)
 
+Features
 
+- Endpoint testing: using Ava and supertest
+- Deploy to Vercel button: Deploy your own ready to use version and add your environment variables
 
 # ToDo
 
-- Calculations - Mortgage
-- Calculations - Mortgage with percentage change
+- Calculations alias and path `calc` - Mortgage
+- Calculations alias and path `calc` - Mortgage with percentage change
 - Mailchimp - Subscribe user
 - Mailchimp - unsubscribe user
 - Stripe - pay with card
 - Stripe - create subscriber
 - Stripe - cancel subscriber
+- Stripe - get customer
+- Stripe - get subscriptions
+- Stripe - get invoices
 - Mailgun - Sendmail
 - SendGrid - Sendmail
+- Slack - Send Message
+- Google Chat - Send Message
+- Matix - Send Message
+
+## ToDo Documentation
+
+- Environment Variables
+- Calling the endpoints from your frontend app
+- Function Request process
+- Per Fucntion Docs
+- Reference
 
 Additional possible platforms templates
 - Xero
@@ -31,7 +48,6 @@ Additional possible platforms templates
 - Quickbooks
 
 Additional possible features
-- Deploy with Vercel button on git repo
 - funcshui.conf.js for API url definitions
 
 ### Sources

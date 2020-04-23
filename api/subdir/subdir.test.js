@@ -4,11 +4,11 @@ const express = require('express');
 
 const app = express();
 
-app.get('/api/subdir/subexample', require('./subexample'));
+app.get('/api/subdir', require('./'));
 
-test.serial('get /api/subdir/subexample', async t => {
+test.serial('get /api/subdir', async t => {
   const res = await request(app)
-    .get('/api/subdir/subexample')
+    .get('/api/subdir')
     .expect('Content-Type', /json/)
     .expect(200)
 
