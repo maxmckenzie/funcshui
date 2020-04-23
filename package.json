@@ -1,0 +1,11 @@
+{
+  "name": "funcshui",
+  "version": "0.0.1",
+  "description": "Collection of serverless functions for use with services such as Vercel (formerly Zeit)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max McKenzie hello@maxmckenzie.uk",
+  "license": "ISC"
+}
