@@ -5,7 +5,7 @@
 
 https://funcshui.now.sh/
 
-Funcshui is a collection of deploy ready serverless functions for use with platforms liek Zeit, GCP, Digital Ocean or AWS. They provide a clean tested set of node functions for multiple use cases.
+Funcshui is a collection of deploy ready serverless functions for use with platforms like Zeit, GCP, Digital Ocean or AWS. They provide a clean tested set of node functions for multiple use cases.
 
 This library has been built to work with Zeit. You can deploy a demo version of it with the button below.
 
