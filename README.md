@@ -1,6 +1,6 @@
 # Funcshui
 
-![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/maxmckenzie/funcshui?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/maxmckenzie/funcshui/test?style=flat-square)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/maxmckenzie/funcshui?style=flat-square)
 
 https://funcshui.now.sh/
