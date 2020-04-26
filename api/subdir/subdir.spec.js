@@ -1,10 +1,11 @@
 const request = require('supertest');
 const test = require('ava');
 const express = require('express');
+const funcshui = require('../../index');
 
 const app = express();
 
-app.get('/api/subdir', require('./'));
+app.get('/api/subdir', funcshui.subExample());
 
 test.serial('demo subdirectory example', async t => {
   const res = await request(app)

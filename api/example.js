@@ -2,5 +2,5 @@
 
 module.exports = (req, res) => {
   const { name = 'World' } = req.query
-  res.json('Hello ' + name)
+  return res.json('Hello ' + name)
 }

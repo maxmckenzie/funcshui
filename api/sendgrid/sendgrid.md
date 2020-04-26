@@ -1,12 +1,9 @@
-# Sendgrid Functions
+# Sendgrid endpoints
 
-## sendEmail
+## send-mail
 
-use cases
+sendgrid.sendEmail(to, from, body, CC, BCC reply-to)
 
-- send single email to single recipent
-- send single email to multiple recipents
-- send multiple emails to multiple recipents
-- CC, BCC, reply-to
+## marketing
 
-https://github.com/sendgrid/sendgrid-nodejs/blob/master/docs/use-cases/README.md#email-use-cases
+sendgrid.marketing(add|remove, email)

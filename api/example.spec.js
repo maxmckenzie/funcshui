@@ -1,10 +1,11 @@
 const request = require('supertest');
 const test = require('ava');
 const express = require('express');
+const funcshui = require('../index');
 
 const app = express();
 
-app.get('/api/example', require('./example'));
+app.get('/api/example', funcshui.example());
 
 test.serial('demo example', async t => {
   const res = await request(app)
