@@ -5,7 +5,7 @@ const funcshui = require('../index');
 
 const app = express();
 
-app.get('/api/example', funcshui.example());
+app.get('/api/example', funcshui.example({key: 'example val'}));
 
 test.serial('demo example', async t => {
   const res = await request(app)

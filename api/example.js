@@ -1,6 +1,10 @@
 // https://funcshui.now.sh/api/example
 
-module.exports = (req, res) => {
-  const { name = 'World' } = req.query
-  return res.json('Hello ' + name)
+module.exports = function(options) {
+  console.log(options)
+  return function (req, res, next) {    
+    const { name = 'World' } = req.query
+    res.json('Hello ' + name)
+    next();
+  }
 }

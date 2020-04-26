@@ -1,2 +1,2 @@
-exports.example = (req, res) => require('./api/example');
-exports.subExample = (req, res) => require('./api/subdir');
+exports.example = require('./api/example');
+exports.subExample = require('./api/subdir');

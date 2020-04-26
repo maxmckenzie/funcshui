@@ -5,7 +5,7 @@ const funcshui = require('../../index');
 
 const app = express();
 
-app.get('/api/subdir', funcshui.subExample());
+app.get('/api/subdir', funcshui.subExample({key: 'example val'}));
 
 test.serial('demo subdirectory example', async t => {
   const res = await request(app)
