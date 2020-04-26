@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/api/example', require('./example'));
 
-test.serial('get /api/example', async t => {
+test.serial('demo example', async t => {
   const res = await request(app)
     .get('/api/example')
     .expect('Content-Type', /json/)

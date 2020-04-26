@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/api/subdir', require('./'));
 
-test.serial('get /api/subdir', async t => {
+test.serial('demo subdirectory example', async t => {
   const res = await request(app)
     .get('/api/subdir')
     .expect('Content-Type', /json/)
